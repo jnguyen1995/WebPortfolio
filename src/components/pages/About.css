@@ -1,0 +1,79 @@
+.about-container {
+  background: url("../../images/img-2.JPG") center center/cover no-repeat;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  align-content: space-around;
+  object-fit: contain;
+}
+
+.about-header {
+  color: #fff;
+  font-size: 80px;
+  margin-left: 25px;
+  height: 100%;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me {
+  color: #fff;
+  margin-right: 25px;
+  margin-left: 25px;
+  height: 100%;
+  align-items: flex-start;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.about-me > h3 {
+  font-size: 50px;
+}
+
+.about-me > p {
+  font-size: 30px;
+}
+
+.about-btns {
+  margin-top: 32px;
+}
+
+.about-btns .btn {
+  margin: 6px;
+}
+
+.row {
+  display: flex;
+}
+
+.col {
+  flex: 50%;
+}
+
+@media screen and (max-width: 960px) {
+  .about-container > h1 {
+    font-size: 70px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-container > h1 {
+    font-size: 50px;
+  }
+
+  .about-container > p {
+    font-size: 30px;
+  }
+
+  .btn-mobile {
+    display: block;
+    text-decoration: none;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}

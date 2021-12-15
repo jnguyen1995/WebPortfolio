@@ -1,0 +1,24 @@
+.carousel-container {
+  background-color: rgb(255, 255, 255);
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  align-content: space-around;
+  object-fit: contain;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
+
+.carousel-center {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  font-size: 30px;
+}

@@ -1,0 +1,33 @@
+.resume-container {
+  background-color: aquamarine;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+  align-content: space-around;
+  object-fit: contain;
+}
+
+.resume-pdf {
+  margin-right: auto;
+  margin-left: auto;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-btns {
+  margin-top: 32px;
+  justify-content: center;
+}
+
+.hero-btns .btn {
+  margin: 6px;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+}
