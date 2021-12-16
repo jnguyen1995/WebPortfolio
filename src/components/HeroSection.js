@@ -9,7 +9,7 @@ function HeroSection() {
       <video src="/videos/ColorGrade_Medium.mp4" autoPlay loop />
       <h1>Hi,</h1>
       <h1>I'm Jonathan Nguyen,</h1>
-      <h1>full-stack web developer.</h1>
+      <h1>Full-Stack Web Developer.</h1>
 
       <div className="hero-btns">
         <Button

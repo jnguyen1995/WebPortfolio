@@ -68,8 +68,8 @@ const CarouselSlider = () => {
         <Carousel
           data={data}
           time={2000}
-          height="720px"
-          width="720px"
+          height="1080px"
+          width="1080px"
           radius="10px"
           slideNumber={true}
           slideNumberStyle={slideNumberStyle}
