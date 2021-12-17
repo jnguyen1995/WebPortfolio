@@ -5,7 +5,7 @@ import "./App.css";
 import Home from "./components/pages/Home";
 import About from "./components/pages/About";
 import Resume from "./components/pages/Resume";
-import resumePDF from "./images/Jonathan-Nguyen-Resume.pdf";
+import resumePDF from "./images/Jonathan-Nguyen-Resume-2021.pdf";
 import Portfolio from "./components/pages/Portfolio";
 import Media from "./components/pages/Media";
 

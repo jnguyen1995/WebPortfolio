@@ -39,7 +39,7 @@ function Resume(props) {
                 className="btns"
                 buttonStyle="btn--outline"
                 buttonSize="btn--large"
-                linkTo="images/Jonathan-Nguyen-Resume.pdf"
+                linkTo="images/Jonathan-Nguyen-Resume-2021.pdf"
               >
                 DOWNLOAD
               </DownloadButton>
