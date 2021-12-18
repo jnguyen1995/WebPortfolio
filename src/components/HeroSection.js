@@ -6,12 +6,7 @@ import "../App.css";
 function HeroSection() {
   return (
     <div className="hero-container">
-      <video
-        src="/videos/ColorGrade_Medium.mp4"
-        autoPlay
-        loop
-        poster="/images/Taipei.jpg"
-      />
+      <video src="/videos/ColorGrade_Medium.mp4" autoPlay loop muted />
       <h1>Hi,</h1>
       <h1>I'm Jonathan Nguyen,</h1>
       <h1>Full-Stack Web Developer.</h1>
