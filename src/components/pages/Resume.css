@@ -9,16 +9,20 @@
 }
 
 .resume-pdf {
+  background-color: aquamarine;
   margin-right: auto;
   margin-left: auto;
-  height: 100%;
+  height: 150%;
+  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-content: center;
+  align-items: center;
 }
 
 .hero-btns {
-  margin-top: 32px;
+  margin-top: 12px;
   justify-content: center;
 }
 

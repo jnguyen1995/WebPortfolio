@@ -54,6 +54,17 @@ const CarouselSlider = () => {
     fontSize: "20px",
     fontWeight: "bold",
   };
+
+  const vw = Math.max(
+    document.documentElement.clientWidth || 0,
+    window.innerWidth || 0
+  );
+  let height = "";
+  if (vw < 768) {
+    height = "300px";
+  } else {
+    height = "720px";
+  }
   return (
     <div className="carousel-container">
       <div
@@ -68,8 +79,8 @@ const CarouselSlider = () => {
         <Carousel
           data={data}
           time={2000}
-          height="1080px"
-          width="1080px"
+          height={height}
+          width={height}
           radius="10px"
           slideNumber={true}
           slideNumberStyle={slideNumberStyle}

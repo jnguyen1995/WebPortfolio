@@ -1,44 +1,49 @@
 .about-container {
-  background: url("../../images/img-2.JPG") center center/cover no-repeat;
+  background-color: aquamarine;
+  background-image: url("../../images/img-2.JPG");
   height: 100vh;
   width: 100%;
   display: flex;
+  background-size: cover;
   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
-  align-content: space-around;
-  object-fit: contain;
+  overflow: hidden;
+  float: right;
 }
 
 .about-header {
   color: #fff;
-  font-size: 80px;
-  margin-left: 25px;
+  font-size: 45px;
+  margin-right: auto;
   height: 100%;
   justify-content: space-around;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .about-me {
   color: #fff;
-  margin-right: 25px;
-  margin-left: 25px;
+  float: left;
+  margin-left: 2em;
   height: 100%;
-  align-items: flex-start;
-  justify-content: center;
+  align-items: center;
   display: flex;
   flex-direction: column;
 }
 
 .about-me > h3 {
-  font-size: 50px;
+  margin-top: 2em;
+  font-size: 40px;
 }
 
 .about-me > p {
-  font-size: 30px;
+  margin-top: 5em;
+  font-size: 20px;
+  margin-bottom: 5em;
 }
 
 .about-btns {
-  margin-top: 32px;
+  margin-top: 2em;
 }
 
 .about-btns .btn {
@@ -53,6 +58,17 @@
   flex: 50%;
 }
 
+.img {
+  color: #fff;
+  max-width: 200px;
+  max-height: 200px;
+  justify-content: center;
+  object-fit: contain;
+  align-content: center;
+  text-align: center;
+  display: inline-block;
+}
+
 @media screen and (max-width: 960px) {
   .about-container > h1 {
     font-size: 70px;
@@ -60,12 +76,53 @@
 }
 
 @media screen and (max-width: 768px) {
+  .about-container {
+    display: flex;
+    flex-direction: column;
+  }
+
   .about-container > h1 {
     font-size: 50px;
   }
 
   .about-container > p {
     font-size: 30px;
+  }
+
+  .about-header {
+    color: #fff;
+    font-size: 45px;
+    margin-right: auto;
+    height: 100%;
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me {
+    color: #fff;
+    float: left;
+    margin-left: 2em;
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-me > h3 {
+    margin-top: 2em;
+    font-size: 40px;
+  }
+
+  .about-me > p {
+    margin-top: 5em;
+    font-size: 20px;
+    margin-bottom: 5em;
+  }
+
+  .col {
+    flex: 100%;
   }
 
   .btn-mobile {

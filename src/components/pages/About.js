@@ -2,18 +2,12 @@ import React from "react";
 import { Button } from "../Button";
 import "./About.css";
 import "../../App.css";
+import image from "../../images/AboutMe.jpg";
 
 function About() {
   return (
     <div className="about-container">
       <div className="row">
-        <div className="col">
-          <div className="about-header">
-            <h2>Engineer</h2>
-            <h2>Web Developer</h2>
-            <h2>Photographer</h2>
-          </div>
-        </div>
         <div className="col">
           <div className="about-me">
             <h3>About Me</h3>
@@ -33,12 +27,12 @@ function About() {
               in the semiconductor industry, I decided to commit myself full
               time to becoming a full-stack web developer since I felt I could
               grow more and have more opportunities on the software side of
-              engineering. <br />
+              engineering.
+              <br />
               <br />I am an independent, well organized person who is patient
-              (most of the time!) with a high attention to detail. In my free
-              time, I enjoy traveling, taking photos, creating videos, playing
-              with Photoshop, AfterEffects, watching movies, playing and
-              designing video games, and watching the NBA.
+              and have a high attention to detail. In my free time, I enjoy
+              traveling, taking photos, creating videos, watching movies, and
+              playing video games,
             </p>
             <div className="hero-btns">
               <Button
